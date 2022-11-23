@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5209BD4D28C543FA00421B42 /* ComputationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209BD4C28C543FA00421B42 /* ComputationRowView.swift */; };
+		5209BD5128C5657A00421B42 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209BD5028C5657A00421B42 /* Row.swift */; };
+		5209BD5328C565A200421B42 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209BD5228C565A200421B42 /* Column.swift */; };
+		5209BD5528C5663900421B42 /* HomeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209BD5428C5663900421B42 /* HomeOptionsView.swift */; };
+		5209BD5828C567C900421B42 /* ColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209BD5728C567C900421B42 /* ColumnView.swift */; };
+		5209BD5A28C568A800421B42 /* ArrowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209BD5928C568A800421B42 /* ArrowsView.swift */; };
+		522ECF2428C18C780006F5E3 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522ECF2328C18C780006F5E3 /* ViewExtension.swift */; };
+		522ECF2628C18D420006F5E3 /* HandheldContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522ECF2528C18D420006F5E3 /* HandheldContainerView.swift */; };
+		522ECF2828C1914A0006F5E3 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522ECF2728C1914A0006F5E3 /* TopBarView.swift */; };
+		522ECF2A28C1924F0006F5E3 /* ScratchpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522ECF2928C1924F0006F5E3 /* ScratchpadView.swift */; };
+		5259517228C56A2400C21BBE /* ArrowBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259517128C56A2400C21BBE /* ArrowBindings.swift */; };
+		52612E9B28C32BB800D17111 /* CloseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52612E9A28C32BB800D17111 /* CloseButtonView.swift */; };
+		52612E9D28C32EA700D17111 /* ComputationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52612E9C28C32EA700D17111 /* ComputationRow.swift */; };
 		52733A6128C158D500458ACB /* SymbolicCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52733A6028C158D500458ACB /* SymbolicCalculatorApp.swift */; };
-		52733A6328C158D500458ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52733A6228C158D500458ACB /* ContentView.swift */; };
+		52733A6328C158D500458ACB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52733A6228C158D500458ACB /* HomeView.swift */; };
 		52733A6528C158D600458ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52733A6428C158D600458ACB /* Assets.xcassets */; };
 		52733A6928C158D600458ACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52733A6828C158D600458ACB /* Preview Assets.xcassets */; };
 		52733A7328C158D600458ACB /* SymbolicCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52733A7228C158D600458ACB /* SymbolicCalculatorTests.swift */; };
 		52733A7D28C158D600458ACB /* SymbolicCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52733A7C28C158D600458ACB /* SymbolicCalculatorUITests.swift */; };
 		52733A7F28C158D600458ACB /* SymbolicCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52733A7E28C158D600458ACB /* SymbolicCalculatorUITestsLaunchTests.swift */; };
+		52733A8D28C1593000458ACB /* SymbolicCalculus in Frameworks */ = {isa = PBXBuildFile; productRef = 52733A8C28C1593000458ACB /* SymbolicCalculus */; };
+		52CDA4FC28C1954900B9E5F5 /* BottomIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDA4FB28C1954900B9E5F5 /* BottomIconsView.swift */; };
+		52CDA4FE28C1E73000B9E5F5 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDA4FD28C1E73000B9E5F5 /* Calculator.swift */; };
+		52CDA50028C266E700B9E5F5 /* Scratchpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDA4FF28C266E700B9E5F5 /* Scratchpad.swift */; };
+		52CDA50228C295E900B9E5F5 /* AngleSettingSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDA50128C295E900B9E5F5 /* AngleSettingSelectorView.swift */; };
+		52CDA50428C2983600B9E5F5 /* AngleSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDA50328C2983600B9E5F5 /* AngleSetting.swift */; };
+		52CDA50628C2E72600B9E5F5 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CDA50528C2E72600B9E5F5 /* CalculatorView.swift */; };
+		52FF03FB28C7E8FA0074DB14 /* ScratchpadTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF03FA28C7E8FA0074DB14 /* ScratchpadTopBarView.swift */; };
+		52FF03FE28C7EE080074DB14 /* ActivatableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E77E528C71AE200F6AD03 /* ActivatableTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +56,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5209BD4C28C543FA00421B42 /* ComputationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputationRowView.swift; sourceTree = "<group>"; };
+		5209BD5028C5657A00421B42 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		5209BD5228C565A200421B42 /* Column.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
+		5209BD5428C5663900421B42 /* HomeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOptionsView.swift; sourceTree = "<group>"; };
+		5209BD5728C567C900421B42 /* ColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnView.swift; sourceTree = "<group>"; };
+		5209BD5928C568A800421B42 /* ArrowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowsView.swift; sourceTree = "<group>"; };
+		522ECF2328C18C780006F5E3 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		522ECF2528C18D420006F5E3 /* HandheldContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandheldContainerView.swift; sourceTree = "<group>"; };
+		522ECF2728C1914A0006F5E3 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		522ECF2928C1924F0006F5E3 /* ScratchpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchpadView.swift; sourceTree = "<group>"; };
+		523E77E528C71AE200F6AD03 /* ActivatableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivatableTextField.swift; sourceTree = "<group>"; };
+		5259517128C56A2400C21BBE /* ArrowBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowBindings.swift; sourceTree = "<group>"; };
+		52612E9A28C32BB800D17111 /* CloseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonView.swift; sourceTree = "<group>"; };
+		52612E9C28C32EA700D17111 /* ComputationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputationRow.swift; sourceTree = "<group>"; };
 		52733A5D28C158D500458ACB /* SymbolicCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolicCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52733A6028C158D500458ACB /* SymbolicCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolicCalculatorApp.swift; sourceTree = "<group>"; };
-		52733A6228C158D500458ACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52733A6228C158D500458ACB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		52733A6428C158D600458ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52733A6628C158D600458ACB /* SymbolicCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SymbolicCalculator.entitlements; sourceTree = "<group>"; };
 		52733A6828C158D600458ACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +81,14 @@
 		52733A7828C158D600458ACB /* SymbolicCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolicCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52733A7C28C158D600458ACB /* SymbolicCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolicCalculatorUITests.swift; sourceTree = "<group>"; };
 		52733A7E28C158D600458ACB /* SymbolicCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolicCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52733A8F28C1848800458ACB /* SymbolicCalculus */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SymbolicCalculus; path = ../SymbolicCalculus; sourceTree = "<group>"; };
+		52CDA4FB28C1954900B9E5F5 /* BottomIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomIconsView.swift; sourceTree = "<group>"; };
+		52CDA4FD28C1E73000B9E5F5 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		52CDA4FF28C266E700B9E5F5 /* Scratchpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scratchpad.swift; sourceTree = "<group>"; };
+		52CDA50128C295E900B9E5F5 /* AngleSettingSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleSettingSelectorView.swift; sourceTree = "<group>"; };
+		52CDA50328C2983600B9E5F5 /* AngleSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleSetting.swift; sourceTree = "<group>"; };
+		52CDA50528C2E72600B9E5F5 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		52FF03FA28C7E8FA0074DB14 /* ScratchpadTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchpadTopBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52733A8D28C1593000458ACB /* SymbolicCalculus in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +117,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5209BD4E28C564CC00421B42 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5259517128C56A2400C21BBE /* ArrowBindings.swift */,
+				5209BD5028C5657A00421B42 /* Row.swift */,
+				5209BD5228C565A200421B42 /* Column.swift */,
+				52CDA4FD28C1E73000B9E5F5 /* Calculator.swift */,
+				52CDA50328C2983600B9E5F5 /* AngleSetting.swift */,
+				52CDA4FF28C266E700B9E5F5 /* Scratchpad.swift */,
+				52612E9C28C32EA700D17111 /* ComputationRow.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		5209BD4F28C5653600421B42 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52FF03FD28C7EDFB0074DB14 /* CalculatorView */,
+				5209BD5628C5664100421B42 /* HomeView */,
+				52FF03FC28C7EDE60074DB14 /* Scratchpad */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5209BD5628C5664100421B42 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				52CDA4FB28C1954900B9E5F5 /* BottomIconsView.swift */,
+				522ECF2728C1914A0006F5E3 /* TopBarView.swift */,
+				52733A6228C158D500458ACB /* HomeView.swift */,
+				5209BD5728C567C900421B42 /* ColumnView.swift */,
+				5209BD5428C5663900421B42 /* HomeOptionsView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		52733A5428C158D500458ACB = {
 			isa = PBXGroup;
 			children = (
+				52733A8E28C1848800458ACB /* Packages */,
 				52733A5F28C158D500458ACB /* SymbolicCalculator */,
 				52733A7128C158D600458ACB /* SymbolicCalculatorTests */,
 				52733A7B28C158D600458ACB /* SymbolicCalculatorUITests */,
@@ -96,7 +178,10 @@
 			isa = PBXGroup;
 			children = (
 				52733A6028C158D500458ACB /* SymbolicCalculatorApp.swift */,
-				52733A6228C158D500458ACB /* ContentView.swift */,
+				5209BD4F28C5653600421B42 /* UI */,
+				5209BD4E28C564CC00421B42 /* Calculator */,
+				52FF040128C82C110074DB14 /* Extensions */,
+				523E77E528C71AE200F6AD03 /* ActivatableTextField.swift */,
 				52733A6428C158D600458ACB /* Assets.xcassets */,
 				52733A6628C158D600458ACB /* SymbolicCalculator.entitlements */,
 				52733A6728C158D600458ACB /* Preview Content */,
@@ -129,6 +214,44 @@
 			path = SymbolicCalculatorUITests;
 			sourceTree = "<group>";
 		};
+		52733A8E28C1848800458ACB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				52733A8F28C1848800458ACB /* SymbolicCalculus */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		52FF03FC28C7EDE60074DB14 /* Scratchpad */ = {
+			isa = PBXGroup;
+			children = (
+				52612E9A28C32BB800D17111 /* CloseButtonView.swift */,
+				522ECF2928C1924F0006F5E3 /* ScratchpadView.swift */,
+				52FF03FA28C7E8FA0074DB14 /* ScratchpadTopBarView.swift */,
+				5209BD4C28C543FA00421B42 /* ComputationRowView.swift */,
+				52CDA50128C295E900B9E5F5 /* AngleSettingSelectorView.swift */,
+			);
+			path = Scratchpad;
+			sourceTree = "<group>";
+		};
+		52FF03FD28C7EDFB0074DB14 /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+				522ECF2528C18D420006F5E3 /* HandheldContainerView.swift */,
+				5209BD5928C568A800421B42 /* ArrowsView.swift */,
+				52CDA50528C2E72600B9E5F5 /* CalculatorView.swift */,
+			);
+			path = CalculatorView;
+			sourceTree = "<group>";
+		};
+		52FF040128C82C110074DB14 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				522ECF2328C18C780006F5E3 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +268,9 @@
 			dependencies = (
 			);
 			name = SymbolicCalculator;
+			packageProductDependencies = (
+				52733A8C28C1593000458ACB /* SymbolicCalculus */,
+			);
 			productName = SymbolicCalculator;
 			productReference = 52733A5D28C158D500458ACB /* SymbolicCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +343,9 @@
 				Base,
 			);
 			mainGroup = 52733A5428C158D500458ACB;
+			packageReferences = (
+				52733A8B28C1593000458ACB /* XCRemoteSwiftPackageReference "SymbolicCalculus" */,
+			);
 			productRefGroup = 52733A5E28C158D500458ACB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +388,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52733A6328C158D500458ACB /* ContentView.swift in Sources */,
+				5209BD5A28C568A800421B42 /* ArrowsView.swift in Sources */,
+				52FF03FB28C7E8FA0074DB14 /* ScratchpadTopBarView.swift in Sources */,
+				52FF03FE28C7EE080074DB14 /* ActivatableTextField.swift in Sources */,
+				522ECF2828C1914A0006F5E3 /* TopBarView.swift in Sources */,
+				5209BD5828C567C900421B42 /* ColumnView.swift in Sources */,
+				52CDA4FC28C1954900B9E5F5 /* BottomIconsView.swift in Sources */,
+				52612E9D28C32EA700D17111 /* ComputationRow.swift in Sources */,
+				52CDA50428C2983600B9E5F5 /* AngleSetting.swift in Sources */,
+				5209BD5528C5663900421B42 /* HomeOptionsView.swift in Sources */,
+				5209BD4D28C543FA00421B42 /* ComputationRowView.swift in Sources */,
+				522ECF2428C18C780006F5E3 /* ViewExtension.swift in Sources */,
+				52CDA50628C2E72600B9E5F5 /* CalculatorView.swift in Sources */,
+				52733A6328C158D500458ACB /* HomeView.swift in Sources */,
+				522ECF2628C18D420006F5E3 /* HandheldContainerView.swift in Sources */,
+				52CDA4FE28C1E73000B9E5F5 /* Calculator.swift in Sources */,
+				52CDA50228C295E900B9E5F5 /* AngleSettingSelectorView.swift in Sources */,
+				52CDA50028C266E700B9E5F5 /* Scratchpad.swift in Sources */,
+				5209BD5128C5657A00421B42 /* Row.swift in Sources */,
+				52612E9B28C32BB800D17111 /* CloseButtonView.swift in Sources */,
 				52733A6128C158D500458ACB /* SymbolicCalculatorApp.swift in Sources */,
+				5209BD5328C565A200421B42 /* Column.swift in Sources */,
+				522ECF2A28C1924F0006F5E3 /* ScratchpadView.swift in Sources */,
+				5259517228C56A2400C21BBE /* ArrowBindings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52733A8B28C1593000458ACB /* XCRemoteSwiftPackageReference "SymbolicCalculus" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joseph0x4365732E/SymbolicCalculus";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52733A8C28C1593000458ACB /* SymbolicCalculus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52733A8B28C1593000458ACB /* XCRemoteSwiftPackageReference "SymbolicCalculus" */;
+			productName = SymbolicCalculus;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52733A5528C158D500458ACB /* Project object */;
 }
