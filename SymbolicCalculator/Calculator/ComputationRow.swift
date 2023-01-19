@@ -13,14 +13,14 @@ public struct CachedExpression {
     var result: String
 }
 
-struct ComputationRow {
+struct ComputationRow<S: Scalar> {
     var index: Int
     var input: String
-    var expression: any Expression
-    var result: any Expression
+    var expression: AnyExpression<S>
+    var result: AnyExpression<S>
     var output: String
     
-    init(index: Int, input: String, expression: any Expression, result: any Expression, output: String) {
+    init(index: Int, input: String, expression: AnyExpression<S>, result: AnyExpression<S>, output: String) {
         self.index = index
         self.input = input
         self.expression = expression
@@ -33,13 +33,13 @@ struct ComputationRow {
         self.input = input
         let exact = !input.contains(".")
         do {
-            self.expression = try ExpressionParser(exact: exact).parse(input: input)
+            self.expression = try ExpressionParser<S>(exact: true).parse(input: input)
             self.result = expression.simplified()
             self.output = result.description
         } catch { error
             #warning("Probably not a good use of EmptyArg(). Might cause fatal errors elsewhere")
-            self.expression = EmptyArg()
-            self.result = EmptyArg()
+            self.expression = AnyExpression(EmptyArg())
+            self.result = AnyExpression(EmptyArg())
             self.output = (error as! ParseError).message
         }
         

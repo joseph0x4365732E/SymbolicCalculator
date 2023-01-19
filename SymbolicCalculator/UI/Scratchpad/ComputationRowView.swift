@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import SymbolicCalculus
 
-struct ComputationRowView: View {
+struct ComputationRowView<S: Scalar>: View {
     @Binding var selection: (x: Int, y: Int)
-    var computation: ComputationRow
+    var computation: ComputationRow<S>
     
     var backgroundColor: Color {
         computation.index.isMultiple(of: 2) ? Color.white : Color.windowBackgroundColor
@@ -53,6 +54,6 @@ struct ComputationRowView: View {
 
 struct ComputationRowView_Previews: PreviewProvider {
     static var previews: some View {
-        ComputationRowView(selection: .constant((0,0)), computation: ComputationRow(index: 0, input: "7.0"))
+        ComputationRowView<AnyScalar>(selection: .constant((0,0)), computation: ComputationRow(index: 0, input: "7.0"))
     }
 }

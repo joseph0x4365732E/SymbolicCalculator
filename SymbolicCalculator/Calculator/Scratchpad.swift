@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import SymbolicCalculus
 
 struct Scratchpad {
     enum Page {
@@ -19,13 +20,13 @@ struct Scratchpad {
     
     var currentPage: Page
     var angleSetting: AngleSetting = .deg
-    var rows: [ComputationRow] = []
+    var rows: [ComputationRow<AnyScalar>] = []
     var input: String = ""
     var selection = (x: 0, y: 0)
     var typingSelected: Bool { selection.y == rows.count }
     var typingIndex: Int { rows.count }
     
-    init(currentPage: Page, angleSetting: AngleSetting = .deg, rows: [ComputationRow] = [], input: String = "", selection: (x: Int, y: Int) = (x: 0, y: 0)) {
+    init(currentPage: Page, angleSetting: AngleSetting = .deg, rows: [ComputationRow<AnyScalar>] = [], input: String = "", selection: (x: Int, y: Int) = (x: 0, y: 0)) {
         self.currentPage = currentPage
         self.angleSetting = angleSetting
         self.rows = rows
@@ -35,7 +36,8 @@ struct Scratchpad {
     
     mutating func submitInput() {
         guard !input.isEmpty else { return }
-        rows.append(ComputationRow(index: rows.count, input: input))
+        
+        rows.append(ComputationRow<AnyScalar>(index: rows.count, input: input))
         if typingSelected { selection.y += 1 }
         input = ""
     }
