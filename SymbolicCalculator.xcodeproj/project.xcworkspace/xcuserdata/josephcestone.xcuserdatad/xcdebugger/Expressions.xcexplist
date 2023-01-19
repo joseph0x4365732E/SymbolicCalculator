@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ExpressionParser.resolve(index:in:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "unaryOp.arg1.description">
+            </PersistentString>
+            <PersistentString
+               value = "unaryOp.arg2.description">
+            </PersistentString>
+            <PersistentString
+               value = "expression.eType">
+            </PersistentString>
+            <PersistentString
+               value = "stack.map { $0.description }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "requireArg #1 (atOffset:) in ExpressionParser.resolve(index:in:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stack.map { $0.description }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ActivatableTextField.updateNSView(_:context:):ActivatableTextField.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "context.coordinator.shouldUpdateResponder">
+            </PersistentString>
+            <PersistentString
+               value = "firstResponder">
+            </PersistentString>
+            <PersistentString
+               value = "context.coordinator.previouslyFirstResponder">
+            </PersistentString>
+            <PersistentString
+               value = "context.coordinator.firstResponder">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static ExpressionParser.parseNextWord(of:at:to:with:scalarType:waitingForPrefix:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "resolvedExpressionStack.map { $0.description }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Fraction.negate():Fraction.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Fraction(whole: 1).negated()">
+            </PersistentString>
+            <PersistentString
+               value = "self.sign">
+            </PersistentString>
+            <PersistentString
+               value = "(self.sign == BigInt.Sign.minus) ? BigInt.Sign.plus : BigInt.Sign.minus">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExpressionParser.parse(input:):ExpressionParser.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(describing: res)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ActivatableTextField.CustomNSTextField.resignFirstResponder():ActivatableTextField.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ExpressionParser.resolve(index:in:):ExpressionParser.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stack[index]">
+            </PersistentString>
+            <PersistentString
+               value = "stack[index].eType.position.arg1Index">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "String.leadingNumber.getter:StringExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(prefix(numberOfDigits))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static ExpressionParser.makeExpression(eType:on:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arg1.description">
+            </PersistentString>
+            <PersistentString
+               value = "argStack.map { $0.description }">
+            </PersistentString>
+            <PersistentString
+               value = "arg2.description&#9;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static ExpressionParser.parse(_:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "levelExpressions.map { $0.description }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExpressionParser.addNegatives(in:):ExpressionParser.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stack.indices">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Scalar.log10.getter:Scalar.swift">
+      </ContextState>
+      <ContextState
+         contextName = "getter of expression #1 in ExpressionParser.resolve(index:in:):ExpressionParser.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "expression">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Constant.negated():Constant.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "-scalar">
+            </PersistentString>
+            <PersistentString
+               value = "String(describing: Constant(-scalar))">
+            </PersistentString>
+            <PersistentString
+               value = "String(describing: self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Expression.equals(_:):ExpressionProtocol.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "eType">
+            </PersistentString>
+            <PersistentString
+               value = "other.eType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Negative.simplified():Negative.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arg1Sim.negated()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExpressionParser.assemble(stack:):ExpressionParser.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stack[idx].eType.precedence == currentPrecendence &amp;&amp; !stack[idx].resolved">
+            </PersistentString>
+            <PersistentString
+               value = "stack[idx].eType.precedence">
+            </PersistentString>
+            <PersistentString
+               value = "stack[idx].eType">
+            </PersistentString>
+            <PersistentString
+               value = "stack[idx].resolved">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExpressionParser.assemble(stack:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stack[0].eType.position">
+            </PersistentString>
+            <PersistentString
+               value = "ExpressionType.OperatorPosition.prefix == .prefix">
+            </PersistentString>
+            <PersistentString
+               value = "stack.map { $0.description }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static ExpressionParser.makeExpression(eType:args:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "args.map { $0.description }">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static ExpressionParser.parseNextWord(of:at:to:with:scalarType:):ComputationRow.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "expressionStack.dropLast(1)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
